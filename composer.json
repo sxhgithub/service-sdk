@@ -9,7 +9,10 @@
             "email": "kujiang@feishu.com"
         }
     ],
-    "require": {},
+    "require": {
+        "guzzlehttp/guzzle" : "^6.0.0",
+        "ext-json" : "*"
+    },
     "autoload": {
         "psr-4": {
             "Kujiang\\ServiceSdk\\": "src/"
